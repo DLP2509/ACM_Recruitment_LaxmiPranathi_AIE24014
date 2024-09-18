@@ -1,0 +1,54 @@
+BINARY MAZE CHALLENGE:
+• INITIAL BINARY STATE:
+You start with a binary number: 1100101011110010
+• LOGICAL GATES ROOM:
+AND gate with 1010110010101101 :
+1000100010100000
+OR gate with 0111001100110011:
+1111101110110011
+XOR gate with 1101110111001110:
+0010011001111101
+NOT gate applied to the result of the previous XOR operation:
+1101100110000010
+• BINARY CONVERSION ROOM:
+Binary to decimal: 1101100110000010 = 55810
+Add 123: 55810 + 123 = 55933
+Multiply by 7: 55933 * 7 = 391531
+: 391531 = 1100001111011101011 (CONVERSION BACK TO BINARY)
+• WEIGHTED BINARY BALANCING:
+We first divide into group of 4 elements, we weight the two groups. If balanced, the
+heavier one is in the last group; otherwise, it's in the heavier group. Hence this
+processes is continued till heaviest binary is found. The heaviest binary is 1111.
+• BINARY TREE NAVIGATION:
+Path: Root → 1 → 0 → 1 → 1 → 1
+Steps must be validated for even counts of 1s
+• BINARY PALINDROMES:
+The binary number 1011011101 is not initially a palindrome. To transform it into a
+palindrome, only one bit flip is required. By flipping the bit at position 4 from 0 to 1,
+the number becomes 1011111101, which satisfies the condition of being a
+palindrome.
+• COMPLEX BINARY PATTERNS:
+1111000000 → 960
+1110100000 → 928
+1110010000 → 896
+1101100000 → 768
+1011100000 → 704
+We still have a lot such numbers. Here are a few
+• Binary XOR Pairs with Constraints:
+The pair of numbers that yields the maximum XOR value while adhering to the
+condition of not having more than three consecutive '1's is:
+(101010, 011011) in binary, which corresponds to (42, 27) in decimal.
+Thus, the answer is:
+Pair: (101010, 011011)
+Maximum XOR Result: 63
+• Binary Multiples and Remainders:
+Convert to decimal: 106
+106÷7=15.142857
+106 mod 7=1
+Hence is not a multiple of 7.
+• Goal:
+Final binary number after all steps: 1100001111011101011
+Convert to decimal and multiply by 5:
+Binary to decimal: 391531
+Final result: 391531 * 5 = 1957655
+Provide the final decimal number: 1957655
